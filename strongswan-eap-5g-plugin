@@ -1,6 +1,0 @@
-cd strongswan/
-git clone https://github.com/syujy/strongswan-eap-5g-plugin.git src/libcharon/plugin/eap_5g
-autoreconf -i
-./configure --prefix=/usr --sysconfdir=/etc --enable-eap-mschapv2 --enable-kernel-libipsec --enable-swanctl --enable-unity  --enable-vici --enable-xauth-eap --enable-xauth-noauth --enable-eap-identity --enable-md4 --enable-pem --enable-openssl --enable-pubkey --enable-farp --enable-eap-gtc --enable-eap-5g
-make
-sudo make install
